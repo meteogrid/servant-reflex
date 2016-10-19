@@ -11,8 +11,8 @@ Category: Web
 Build-type: Simple
 Cabal-version: >=1.10
 
-flag example
-  Description: Build example app
+flag examples
+  Description: Build example apps
   default: False
   manual: True
 
