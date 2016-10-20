@@ -20,7 +20,7 @@ flag onlyghcjs
   description: Do not build with GHC
 
 library
-  if !impl(ghcjs) and flag(onlyghcjs)
+  if !impl(ghcjs) && flag(onlyghcjs)
     buildable: False
   exposed-modules:
     Servant.Reflex
